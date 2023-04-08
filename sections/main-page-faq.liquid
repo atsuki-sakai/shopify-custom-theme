@@ -1,0 +1,99 @@
+
+
+
+<div class="container">
+    <h1 class="title">{{ section.settings.title }}</h1>
+    <div class="content">
+      {% for block in section.blocks %}
+        <div class="question_card">
+          <p class="question_title">{{ block.settings.question_title }}</p>
+          <span class="question_answer">{{ block.settings.question_text  }}</span>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+{%- style -%}
+  .container {
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    padding: 1rem 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .question_card {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: 3rem auto;
+  }
+  .question_title {
+    position: relative;
+    display: block;
+    font-size: 1.7rem;
+    background-color: lightgray;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    color:gray;
+  }
+  .question_title::before {
+    content: "質問 : ";
+    font-weight: 600;
+  }
+  .question_answer {
+    padding: 1rem 1rem;
+    color: black;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+{%- endstyle -%}
+
+{% schema %}
+  {
+    "name": "faq",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Sample Title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "question_card",
+        "type": "question_card",
+        "limit": 8,
+        "settings": [
+          {
+            "type": "text",
+            "id": "question_title",
+            "label": "Question Title",
+            "default": "Question Title"
+          },
+          {
+            "type": "textarea",
+            "id": "question_text",
+            "label": "Question Text",
+            "default": "Question Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "faq",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "丹波篠山黒枝豆",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "この時期にしか食べられない、旬の味をぜひ一度ご賞味ください",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ご予約はこちら",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.webp",
+        "image_2": "shopify:\/\/shop_images\/5.webp",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.webp",
+            "title": "「丹波黒」の品質的価値",
+            "text": "<p>丹波黒が高<br\/>品質と珍重される理由には、百粒重（豆の大きさの尺度で、百粒あたりの重量のこと）<br\/>が 80g を超える世界一極大粒であることと、表面にブルーム（脂質から作られる蝋が表<br\/>面に出てきたもの。また、ろう粉ともいう）が生じること、煮豆にしても皮が破れにく<br\/>くよく膨らみ、漆黒の色つやと広がる芳香やもちもちとした食感から評価されている。<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.webp",
+            "title": "優良種子選抜・生産方式",
+            "text": "<p>選抜育種とは、品種改良においてある特定の有用な形質をもつ品種を選び、その品種<br\/>からさらに有望なものを何世代も選抜して育種することをいう。たとえば、豊富な遺伝<br\/>資源の中から“大粒”という目的形質に合わせて選抜を繰り返すことで大粒化を促すこ<br\/>とができる。実際に「丹波黒」は 1940 年代に百粒重が 47g であったが、2000 年代に<br\/>百粒重 80g を超えている。この理由としては、「丹波黒」の発祥の地である丹波篠山地<br\/>域には様々な形質をもつ遺伝資源が存在したことと、また高価格な大粒化を目指し続け<br\/>たことが挙げられる。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.webp",
+            "title": "土壌・気候",
+            "text": "<p>太古の時代、湖の底だったとされる丹波篠山は土壌に粘土質を多く含み、栄養が豊富なうえに養分や水分を蓄える力に優れています。さらに、厳しい冬の冷え込みは、地表近くの水分が凍って土を持ち上げる「霜柱」を頻繁に発生させます。土は霜柱によって持ち上げられることで空気を取り込みます。その結果、土壌中の微生物の活動を活発化させ、さらに良い土が生まれます。丹波篠山の中でも気温が2～3度低いと言われる宮代の厳しい気候こそが、おいしい作物を育んでくれているのです。<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ようこそまぼろし屋へ<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>丹波篠山で育った黒枝豆は大粒で、旨み、甘み、食感、全てにおいて他の枝豆とは違います。この違いを是非お楽しみください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "おすすめの商品",
+        "heading_size": "h2",
+        "description": "<p>まぼろし屋で良く売れています<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "palladuim"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "nike-crackle-print-tb-tee",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "flex-fit"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "旬を味わう",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "まぼろし屋の黒枝豆",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/6.webp",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e8642e1f-2ae5-451a-bd29-8ddcff993696": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>販路の拡大とブランド化<\/p><p><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>「丹波黒」は 10 月初旬から３週間程度の期間に枝豆として収穫でき、他の黒<br\/>大豆枝豆にはみられないモチモチとした独特の食感をもつ。これが漫画『おいしんぼ』<br\/>にも取り上げられたことを契機として人気が高まった。<\/p>"
+          }
+        },
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-0",
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-1",
+        "template--16754553159996__e8642e1f-2ae5-451a-bd29-8ddcff993696-1680847715275a4291-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "multicolumn",
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "e8642e1f-2ae5-451a-bd29-8ddcff993696"
+  ]
+}
